@@ -399,7 +399,20 @@ input[type=submit]:hover {
 
 
 
+@media (max-width: 1111px) {
+	.connect {
+		left: 792px;
+	}
 
+	.content {
+		left: -135px;
+		
+	}
+
+	.portfolio-section {
+		left: -135px;
+	}
+}
 
 
 
@@ -437,6 +450,65 @@ input[type=submit]:hover {
 		right: -443px; 
 
 	}
+
+	.portfolio-section {
+		left: -135px;
+		width: 452px;
+		height: 1104px;
+
+	}
+
+	
+
+	.hangman-photo {
+		margin-left: 20px;
+		margin-bottom: 50px;
+	}
+
+	.hangman {
+		top: 107px;
+		left: 20px;
+	}
+
+	.rpg-photo {
+		margin-left: -254px;
+		margin-bottom: -143px;
+	}
+
+	.rpg {
+		top: 294px;
+		right: 80px;
+	}
+
+	.trivia-photo {
+		margin-left: -254px;
+		margin-bottom: -364px;
+	}
+
+	.trivia {
+		top: 523px;
+		right: 20px;
+	}
+
+	.widget-photo {
+		margin-left: -255px;
+		margin-bottom: -558px;
+	}
+
+	.widget {
+		top: 715px;
+		right: 80px;
+	}
+
+	.rock-photo {
+		margin-left: -254px;
+		margin-bottom: -755px;
+	}
+
+	.rock {
+		bottom: -730px;
+		left: 20px;
+	}
 	
 }
 
@@ -457,6 +529,10 @@ input[type=submit]:hover {
 	.content {
 		left:2px;
 	}
+
+	.portfolio-section {
+		left: -57px;
+	}
 	
 }
 
@@ -464,12 +540,12 @@ input[type=submit]:hover {
 @media (max-width: 640px) {
 	.cole {
 		position: static;
-		width: 445px;
+		width: 100%;
 
 	}
 
 	.links {
-		width: 445px;
+		width: 100%;
 		position: static;
 	}
 
@@ -493,28 +569,35 @@ input[type=submit]:hover {
 	}
 
 	footer {
-		width: 445px;
+		width: 100%;
+	}
+
+	.connect {
+		left: 13px;
+	}
+
+	.portfolio-section {
+		top: -12px;
+		left: -25px;
+		width: auto;
+
+	}
+
+	.port {
+		text-align: center;
+	}
+
+	.hangman-photo {
+		width: 294px;
+		margin-left: -10px;
+
+	}
+
+	.hangman {
+		
 	}
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
