@@ -540,12 +540,12 @@ input[type=submit]:hover {
 @media (max-width: 640px) {
 	.cole {
 		position: static;
-		width: 100%;
+		width: 114%;
 
 	}
 
 	.links {
-		width: 100%;
+		width: 114%;
 		position: static;
 	}
 
@@ -559,6 +559,10 @@ input[type=submit]:hover {
 		top: 29px;
 	}
 
+	.me {
+		max-width: 348px;
+	}
+
 	.contact {
 		right: -170px;
 		top: 29px;
@@ -569,7 +573,7 @@ input[type=submit]:hover {
 	}
 
 	footer {
-		width: 100%;
+		width: 114%;
 	}
 
 	.connect {
@@ -579,8 +583,8 @@ input[type=submit]:hover {
 	.portfolio-section {
 		top: -12px;
 		left: -25px;
-		width: auto;
-
+		height: 1294px;
+		
 	}
 
 	.port {
@@ -594,7 +598,59 @@ input[type=submit]:hover {
 	}
 
 	.hangman {
+		top: 126px;
+		left: -10px;
+		width: 294px;
 		
+	}
+
+	.rpg-photo {
+		width: 294px;
+		margin-left: -10px;
+
+	}
+
+	.rpg {
+		top: 382px;
+		right: 66px;
+		width: 294px;
+
+	}
+
+	.trivia-photo {
+		width: 294px;
+		margin-left: -10px;
+
+	}
+
+	.trivia {
+		top: 620px;
+		left: -10px;
+		width: 294px;
+	}
+
+	.widget-photo {
+		width: 294px;
+		margin-left: -10px;
+		margin-bottom: -586px;
+	}
+
+	.widget {
+		width: 294px;
+		top: 856px;
+		right: 66px;
+	}
+
+	.rock-photo {
+		width: 294px;
+		margin-left: -10px;
+		margin-bottom: -810px;
+	}
+
+	.rock {
+		width: 294px;
+		left: -10px;
+		bottom: -780px;
 	}
 	
 }
