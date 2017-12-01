@@ -412,6 +412,10 @@ input[type=submit]:hover {
 	.portfolio-section {
 		left: -135px;
 	}
+
+	.contact-page {
+		left: -142px;
+	}
 }
 
 
@@ -510,6 +514,9 @@ input[type=submit]:hover {
 		left: 20px;
 	}
 	
+	.contact-page {
+		width: 500px;
+	}
 }
 
 @media (max-width: 768px) {
@@ -533,6 +540,10 @@ input[type=submit]:hover {
 	.portfolio-section {
 		left: -57px;
 	}
+
+	.contact-page {
+		left: -38px;
+	}
 	
 }
 
@@ -547,6 +558,7 @@ input[type=submit]:hover {
 	.links {
 		width: 114%;
 		position: static;
+		height: 76px;
 	}
 
 	.about {
@@ -651,6 +663,12 @@ input[type=submit]:hover {
 		width: 294px;
 		left: -10px;
 		bottom: -780px;
+	}
+
+	.contact-page {
+		top: 42px;
+		width: 430px;
+		left: -1px;
 	}
 	
 }
