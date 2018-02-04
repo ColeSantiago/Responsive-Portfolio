@@ -1,77 +1,70 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en-us">
 <head>
-	<title>Cole Santiago's Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="assets/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/style.css">
-
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Contact | Cole Santiago</title>
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
+<body>
 
-<body background="images/gray_sand/gray_sand.png"> 
+<div class="wrapper">
 
-		
-		<h1 class="cole">Cole Santiago</h1>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Cole Santiago</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-	<div class="links">
-		
-		<a class="about" href="index.html">About</a>
+  <main class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
-		<a class="portfolio" href="portfolio.html">Portfolio</a>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
-		<a class="contact" href="contact.html">Contact</a>
+    </section>
 
-	</div>
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
 
+        <ul>
+          <li><a href="https://github.com/ColeSantiago" target="_blank"><img src="images/github-128.png" alt="Github"></a></li>
+          <li><a href="https://www.linkedin.com/in/cole-santiago-b32759147/" target="_blank"><img src="images/linkedin-128.png" alt="LinkedIn"></a></li>
+          <li><a href="https://stackoverflow.com/users/8870992/cole-santiago?tab=profile" target="_blank"><img src="images/stackoverflow-128.png" alt="Stack Overflow"></a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <div class="push"></div>
+</div>
 
-	<div class="contact-page">
-
-
-		<h1 class="contact-header">Contact</h1>
-
-	<hr/>
-
-		<div class="container">
-			<form action="/action_page.php" target="_blank" method="GET">
-				
-				<label for="fname">Name</label>
-				<input type="text" class="name" name="name" placeholder="Name">
-
-				<label for="email">Email</label>
-				<input type="text" class="email" name="email" placeholder="Email Address">
-
-				<label for="message">Message</label>
-				<textarea class="message" name="message" placeholder="Say hi" style="height:200px"></textarea>
-
-				<input type="submit" value="Submit">
-
-
-
-			</form>
-
-		</div>
-
-	</div>
-
-
-		<div class="connect">
-
-			<h2 class="withme">Connect With Me</h2>
-
-			<hr/>
-
-			<a href="https://github.com/ColeSantiago" target="_blank">
-			<img class="git" src="images/if_github_square_black_107109.png"></a>
-
-			<a href="https://www.linkedin.com/in/cole-santiago-b32759147/" target="_blank">
-			<img class="linkin" src="images/if_linkedin_square_color_107091.png"></a>
-
-			<a href="https://stackoverflow.com/users/8870992/cole-santiago?tab=profile" target="_blank">
-			<img class="stack" src="images/if_stackoverflow_273179.png"></a>
-
-		</div>
-
-		<footer class="footer-contact">&copy; Copyright 2017 Cole Santiago</footer>
-
+  <footer>
+    <div class="container">
+      &copy; Copyright 2018 Cole Santiago
+    </div>
+  </footer>
 </body>
 </html>
